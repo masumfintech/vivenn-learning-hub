@@ -248,6 +248,9 @@
   .top-\[100\%\] {
     top: 100%;
   }
+  .top-full {
+    top: 100%;
+  }
   .-right-3 {
     right: calc(var(--spacing) * -3);
   }
@@ -452,14 +455,23 @@
   .max-h-\[480px\] {
     max-height: 480px;
   }
+  .min-h-13 {
+    min-height: calc(var(--spacing) * 13);
+  }
   .min-h-38 {
     min-height: calc(var(--spacing) * 38);
+  }
+  .min-h-63\.5 {
+    min-height: calc(var(--spacing) * 63.5);
   }
   .min-h-80 {
     min-height: calc(var(--spacing) * 80);
   }
   .min-h-100 {
     min-height: calc(var(--spacing) * 100);
+  }
+  .min-h-120 {
+    min-height: calc(var(--spacing) * 120);
   }
   .min-h-125 {
     min-height: calc(var(--spacing) * 125);
@@ -530,6 +542,12 @@
   .w-36 {
     width: calc(var(--spacing) * 36);
   }
+  .w-37\.5 {
+    width: calc(var(--spacing) * 37.5);
+  }
+  .w-41\.25 {
+    width: calc(var(--spacing) * 41.25);
+  }
   .w-44 {
     width: calc(var(--spacing) * 44);
   }
@@ -560,6 +578,9 @@
   .w-full {
     width: 100%;
   }
+  .max-w-85 {
+    max-width: calc(var(--spacing) * 85);
+  }
   .max-w-\[62vw\] {
     max-width: 62vw;
   }
@@ -574,9 +595,6 @@
   }
   .max-w-\[300px\] {
     max-width: 300px;
-  }
-  .max-w-\[340px\] {
-    max-width: 340px;
   }
   .max-w-\[420px\] {
     max-width: 420px;
@@ -691,6 +709,9 @@
   }
   .gap-6 {
     gap: calc(var(--spacing) * 6);
+  }
+  .gap-6\.25 {
+    gap: calc(var(--spacing) * 6.25);
   }
   .gap-10 {
     gap: calc(var(--spacing) * 10);
@@ -1497,11 +1518,20 @@
     .sm\:h-full {
       height: 100%;
     }
+    .sm\:min-h-15\.75 {
+      min-height: calc(var(--spacing) * 15.75);
+    }
     .sm\:min-h-\[63px\] {
       min-height: 63px;
     }
     .sm\:w-16 {
       width: calc(var(--spacing) * 16);
+    }
+    .sm\:w-45 {
+      width: calc(var(--spacing) * 45);
+    }
+    .sm\:w-51\.25 {
+      width: calc(var(--spacing) * 51.25);
     }
     .sm\:w-\[180px\] {
       width: 180px;
@@ -1523,9 +1553,6 @@
     }
     .sm\:grid-cols-\[1fr_0\.48fr\] {
       grid-template-columns: 1fr 0.48fr;
-    }
-    .sm\:grid-cols-\[1fr_0\.64fr\] {
-      grid-template-columns: 1fr 0.64fr;
     }
     .sm\:grid-cols-\[1fr_0\.70fr\] {
       grid-template-columns: 1fr 0.70fr;
@@ -1839,6 +1866,9 @@
     .lg\:h-full {
       height: 100%;
     }
+    .lg\:max-h-120 {
+      max-height: calc(var(--spacing) * 120);
+    }
     .lg\:max-h-\[480px\] {
       max-height: 480px;
     }
@@ -1966,6 +1996,9 @@
     }
     .xl\:hidden {
       display: none;
+    }
+    .xl\:w-52\.75 {
+      width: calc(var(--spacing) * 52.75);
     }
     .xl\:w-\[211px\] {
       width: 211px;
